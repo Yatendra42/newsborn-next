@@ -1,0 +1,47 @@
+@use '../../styles/variables' as *;
+@use '../../styles/global' as *;
+
+aside {
+    background-color: $white;
+    padding: 20px;
+    font-family: $font-family;
+    color: $primary-text-color;
+    flex: 0 0 250px;
+    @extend .card;
+    position: sticky;
+    top: 100px;
+
+    
+    h2 {
+        font-size: $font-size-large;
+        margin-bottom: $margin-base;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+             transition: 0.3s ease;
+            a {
+                text-decoration: none;
+                color: $primary-text-color;
+                text-transform: capitalize;
+                padding: 8px 14px;
+                margin-bottom: 6px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 0.5s ease;
+                display: block;
+                
+                
+
+                &:hover {
+                    //color: $text-orange;
+                    background: $background-color-alt;
+                    transform: translateX(4px);
+                   font-weight: $weight-bold;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@use '@/styles/variables' as *;
+
+
+.right-aside {
+    background-color: $white;
+    padding: 20px;
+    font-family: $font-family;
+    color: $primary-text-color;
+   
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+         width: 340px;
+        flex: 0 0 340px;
+        position: sticky;
+        top: 100px;
+    }
+
+    h2 {
+        font-size: $font-size-large;       
+    }
+
+}

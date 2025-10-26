@@ -1,0 +1,11 @@
+@use "../variables" as *;
+
+// Main component styles
+
+main {
+  display: flex;
+  gap: 30px;
+  margin-top: $padding-base * 3;
+  margin-bottom: $padding-base * 3;
+  align-items: flex-start;
+}

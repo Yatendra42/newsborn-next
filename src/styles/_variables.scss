@@ -1,0 +1,39 @@
+// This file holds all the SCSS variables used throughout the styles.
+
+$primary-text-color: #333333;
+$secondary-text-color: #666666;
+$background-color: #f8f8fa;
+$white: #ffffff;
+$background-color-alt: #e2dfde;
+$text-orange: #e57400;
+$accent-color: #f8a100;
+$gray-text: #b3b5b2; 
+$footer-background: #666666;
+
+$short-cardBG: #fafafa;
+
+
+$font-family: var(--font-inter), "Inter", sans-serif;
+$font-size-base: 16px;
+$font-size-large: 24px;
+$font-size-medium: 20px;
+$font-size-small: 14px;
+$font-size-xsmall: 12px;
+
+$weight-normal: 400;
+$weight-bold: 800;
+$weight-light: 300;
+$weight-headline: 900;
+
+$line-height-base: 1.5;
+
+$border-radius: 4px;
+
+$spacing-unit: 8px; // Base unit for spacing
+
+$padding-base: $spacing-unit * 2; // 16px
+$margin-base: $spacing-unit * 2; // 16px
+
+$box-shadow-base: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+

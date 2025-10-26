@@ -1,0 +1,31 @@
+@use "@/styles/variables" as *;
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  background: $background-color;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 10px 16px;
+  width: 340px;
+  transition: all 0.3s ease;
+  gap: 20px;
+
+  input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: $primary-text-color;
+    font-size: 14px;
+    font-family: $font-family;
+
+    &::placeholder {
+      color: $gray-text;
+    }
+  }
+
+  svg {
+    fill: $gray-text;
+  }
+}

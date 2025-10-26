@@ -1,0 +1,12 @@
+@use '../variables' as *;
+
+footer {
+    padding: 50px;
+}
+
+.container:has(footer) {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: $primary-text-color;
+}

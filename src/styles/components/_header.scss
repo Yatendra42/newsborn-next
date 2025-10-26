@@ -1,0 +1,45 @@
+@use "../variables" as *;
+
+header {
+  background-color: $white;
+  position:sticky;
+  top: 0;
+  z-index: 100;
+  
+  .container {
+    padding: $padding-base;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      img {
+        height: 25px;
+        display: inline-block;
+      }
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 30px;
+
+      li {
+        font-size: 14px;
+        font-weight: 500;
+        color: $primary-text-color;
+        transition: ease 0.35s all;
+        a {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+
+        &:hover {
+          color: $text-orange;
+        }
+      }
+    }
+  }
+}
