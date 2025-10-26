@@ -1,51 +1,48 @@
+import Link from "next/link";
 import React from "react";
-import './Aside.scss';
+import "./Aside.scss";
 
 function Aside() {
   return (
     <>
       <aside>
-
         <h2>Categories</h2>
-      
+
         <ul>
           <li>
-            <a href="">politics</a>
+            <Link href="/">Politics</Link>
           </li>
           <li>
-            <a href="">Business</a>
+            <Link href="/">Business</Link>
           </li>
           <li>
-            <a href="">Technology</a>
+            <Link href="/">Technology</Link>
           </li>
           <li>
-            <a href="">Health</a>
+            <Link href="/">Health</Link>
           </li>
           <li>
-            <a href="">Sports</a>
-          </li>
-
-          <li>
-            <a href="">Entertainment</a>
+            <Link href="/">Sports</Link>
           </li>
           <li>
-            <a href="">Science</a>
+            <Link href="/">Entertainment</Link>
           </li>
           <li>
-            <a href="">Lifestyle</a>
+            <Link href="/">Science</Link>
           </li>
           <li>
-            <a href="">Travel</a>
-          </li>
-
-          <li>
-            <a href="">World</a>
+            <Link href="/">Lifestyle</Link>
           </li>
           <li>
-            <a href="">Education</a>
+            <Link href="/">Travel</Link>
+          </li>
+          <li>
+            <Link href="/">World</Link>
+          </li>
+          <li>
+            <Link href="/">Education</Link>
           </li>
         </ul>
-   
       </aside>
     </>
   );

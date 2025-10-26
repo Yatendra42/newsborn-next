@@ -6,7 +6,8 @@ aside {
     padding: 20px;
     font-family: $font-family;
     color: $primary-text-color;
-    flex: 0 0 250px;
+    flex: 0 1 250px;
+    max-width: 250px;
     @extend .card;
     position: sticky;
     top: 100px;

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/style.scss";
+import favicon from '@/assets/favicon.bmp';
+import { NewsProvider } from "@/context/NewsContext";
 
 
 
@@ -13,6 +15,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "NewsBorn - Your Source for Latest News",
   description: "Stay updated with the latest news and updates from around the world. Your trusted source for breaking news, politics, technology, sports, and more.",
+   icons: {
+    icon: favicon.src,
+  },
 };
 
 export default function RootLayout({
@@ -26,7 +31,9 @@ export default function RootLayout({
                 className={` ${inter.variable} antialiased`}
                 suppressHydrationWarning={true}
             >
+                 <NewsProvider>
                 {children}
+                </NewsProvider>
             </body>
         </html>
     );

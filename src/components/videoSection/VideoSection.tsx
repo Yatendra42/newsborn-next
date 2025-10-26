@@ -16,7 +16,7 @@ function VideoSection() {
           </div>
 
           <div className="video-container--content">
-              <video loop autoPlay controls  >
+              <video controls  >
                 <source src="https://cdn.pixabay.com/video/2019/12/08/29982-378308905_large.mp4" type="video/mp4" />
               </video>
 

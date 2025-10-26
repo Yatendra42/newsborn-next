@@ -12,8 +12,8 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-         width: 340px;
-        flex: 0 0 340px;
+         max-width: 340px;
+        flex: 0 1 340px;
         position: sticky;
         top: 100px;
     }
