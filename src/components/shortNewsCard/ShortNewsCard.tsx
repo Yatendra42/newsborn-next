@@ -12,12 +12,12 @@ interface ShortNewsCardProps {
 }
 
 function ShortNewsCard({
-  href,
+  href = "#",
   title,
   imageUrl,
   date,
   category,
- source
+  source
 }: ShortNewsCardProps) {
   return (
     <Link className="short-news-card" href={href}>
