@@ -20,10 +20,11 @@ function ShortNewsCard({
   source
 }: ShortNewsCardProps) {
   return (
-    <Link className="short-news-card" href={href}>
-      <div className="thumb">
-        <img src={imageUrl} alt={title} />
-      </div>
+    <Link className="short-news-card" target="_blank"  rel="noopener noreferrer" href={href}>
+       {imageUrl &&  <div className="thumb">
+      <img src={imageUrl} alt={title} />
+      </div> }
+
       <div className="content">
      
         <h3 className="title">{title}</h3>

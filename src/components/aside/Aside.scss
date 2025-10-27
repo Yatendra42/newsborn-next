@@ -6,7 +6,7 @@ aside {
     padding: 20px;
     font-family: $font-family;
     color: $primary-text-color;
-    flex: 0 1 250px;
+    flex: 0 0 250px;
     max-width: 250px;
     @extend .card;
     position: sticky;
@@ -23,6 +23,14 @@ aside {
         padding: 0;
         li {
              transition: 0.3s ease;
+           &.is-active { 
+              a {
+                 background: $background-color-alt;
+               transform: translateX(4px);
+               font-weight: $weight-bold;
+              }
+           }
+
             a {
                 text-decoration: none;
                 color: $primary-text-color;
@@ -32,10 +40,11 @@ aside {
                 border-radius: 10px;
                 cursor: pointer;
                 transition: 0.5s ease;
-                display: block;
-                
-                
-
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                font-weight: 500;
+                            
                 &:hover {
                     //color: $text-orange;
                     background: $background-color-alt;

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./TopHeadlines.scss";
 import type { StaticImageData } from "next/image";
 import CustomCard from "../customCard/CustomCard";
@@ -21,49 +21,17 @@ interface TopHeadlinesProps {
   description?: string;
 }
 
+
 const TopHeadlines = ({
   title = "Top Headlines",
   category = "Latest News",
 }: TopHeadlinesProps) => {
-  // const headlinesData = [
-  //   {
-  //     url: "https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1200&q=80",
-  //     title: "Tech Giants Rally Behind AI Regulation Framework",
-  //     category: "Technology",
-  //     description:
-  //       "Global leaders push for responsible AI practices to balance innovation with ethical concerns.",
-  //   },
-  //   {
-  //     url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-  //     title: "Climate Action Summit Sets New Global Targets",
-  //     category: "Environment",
-  //     description:
-  //       "Nations unite to commit to stronger emission cuts and renewable energy initiatives by 2030.",
-  //   },
-  //   {
-  //     url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
-  //     title: "Markets Rebound as Investors Eye Earnings Reports",
-  //     category: "Business",
-  //     description:
-  //       "After weeks of volatility, global markets show signs of recovery amid strong Q4 projections.",
-  //   },
-  //   {
-  //     url: "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80",
-  //     title: "Next-Gen Smartphones Redefine Mobile Experience",
-  //     category: "Gadgets",
-  //     description:
-  //       "Foldable designs and AI-enhanced cameras dominate the latest lineup of flagship releases.",
-  //   },
-  //   {
-  //     url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
-  //     title: "Youth Turnout Could Shape 2025 Global Elections",
-  //     category: "Politics",
-  //     description:
-  //       "A surge in youth voter registration is expected to influence key policy outcomes across continents.",
-  //   },
-  // ];
 
- const { articles, refreshNews } = useNews();
+  const { getCategoryNews, loading, error } = useNews();
+  const articles = getCategoryNews("general");
+
+  if (loading) return <p>Loading general news...</p>;
+  if (error) return <p>{error}</p>;
 
  console.log("Articles in TopHeadlines:", articles);
  

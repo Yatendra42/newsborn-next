@@ -6,12 +6,12 @@ import React from 'react'
 
 import { useNews } from "@/context/NewsContext";
 
-function SportNews() {
+function MarketNews() {
 
     const { getCategoryNews, loading, error } = useNews();
-     const articles = getCategoryNews("sports");
+     const articles = getCategoryNews("business");
   
-    if (loading) return <p>Loading sports news...</p>;
+    if (loading) return <p>Loading Business news...</p>;
     if (error) return <p>{error}</p>;
   
   
@@ -21,21 +21,20 @@ function SportNews() {
        <div className="card right-aside">
           <div className="section-header">
             <h2 className="section-header__title">
-              Sports <span className="text-regular"> News</span>
+              Market <span className="text-regular"> News</span>
             </h2>
-            <Link className="see-link" href="/sports">
+            <Link className="see-link" href="/business">
               See all →
             </Link>
           </div>
 
           <div className="right-aside__content">
             {articles && articles.length > 0 ? (
-              articles.slice(0, 2).map((article) => (
+              articles.slice(0, 3).map((article) => (
                 <ShortNewsCard
                   key={article.url}
                   href={article.url}
                   title={article.title}
-                  imageUrl={article.image}
                 />
               ))
             ) : (
@@ -47,4 +46,4 @@ function SportNews() {
   )
 }
 
-export default SportNews
+export default MarketNews

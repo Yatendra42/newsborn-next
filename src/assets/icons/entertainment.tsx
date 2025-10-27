@@ -1,0 +1,24 @@
+
+import React from 'react';
+
+type Props = React.SVGProps<SVGSVGElement> & {
+  size?: number | string;
+  title?: string;
+};
+
+const EntertainmentNewIcon: React.FC<Props> = ({ size = 16, title, ...props }) => (
+  <svg
+ viewBox="0 0 14 14"
+    width={size}
+    height={size}
+    fill="currentColor"
+    aria-hidden={title ? undefined : true}
+    role="img"
+    {...props}
+  >
+    {title ? <title>{title}</title> : null}
+  <path d="M1 1v6s0 3.429 3.429 3.429c.418 0 .775-.072 1.098-.161-.05-.414-.027-.697-.027-.697v-.187a2.936 2.936 0 0 1-1.071.187C1.857 9.571 1.857 7 1.857 7V2.286c1.714.816 3.429.816 5.143 0v.99c.287.115.58.221.857.295V1C5.286 2.177 3.571 2.119 1 1Zm2.143 2.571a.857.857 0 1 0 0 1.715.857.857 0 0 0 0-1.715Zm3 0v6S6.143 13 9.57 13C13 13 13 9.571 13 9.571v-6c-2.571 1.177-4.286 1.12-6.857 0zm2.143 2.572a.857.857 0 1 1 0 1.714.857.857 0 0 1 0-1.714zm2.571 0a.857.857 0 1 1 0 1.714.857.857 0 0 1 0-1.714ZM4.43 6.57c-1.254 0-1.715.872-1.715 1.715H5.5v-1.42c-.26-.19-.604-.295-1.071-.295Zm3.428 3h3.429c0 .858-.857 1.715-1.715 1.715-.857 0-1.714-.857-1.714-1.715z"/>
+</svg>
+);
+
+export default EntertainmentNewIcon;
