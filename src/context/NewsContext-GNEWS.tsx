@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useEffect } from "react";
-import { fetchGNews } from "@/lib/api/gnews-old";
+
 
 type Article = {
   title: string;
