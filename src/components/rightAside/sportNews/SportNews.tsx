@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, {useEffect} from 'react'
 
 import { useNews } from "@/context/NewsContext";
+import { PlaceHolder } from '@/assets';
 
 function SportNews() {
 
@@ -54,7 +55,7 @@ function SportNews() {
                   key={article.url || article.link}
                   href={article.url}
                   title={article.title}
-                  imageUrl={article.image}
+                  imageUrl={article.image || article.image_url || PlaceHolder.src} 
                 />
               ))
             ) : (

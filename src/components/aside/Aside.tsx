@@ -14,6 +14,7 @@ import LifestyleIcon from "@/assets/icons/lifestyle";
 import TravelIcon from "@/assets/icons/travel";
 import WorldIcon from "@/assets/icons/world";
 import EntertainmentNewIcon from "@/assets/icons/entertainment";
+import CryptoIcon from "@/assets/icons/crypto";
 
 const categories = [
   { href: "/world", label: "World", Icon: WorldIcon },
@@ -26,6 +27,7 @@ const categories = [
   { href: "/lifestyle", label: "Lifestyle", Icon: LifestyleIcon },
   { href: "/travel", label: "Travel", Icon: TravelIcon },
   { href: "/politics", label: "Politics", Icon: PoliticsIcon },
+  { href: "/crypto", label: "Crypto", Icon: CryptoIcon },
 ];
 
 function Aside() {
