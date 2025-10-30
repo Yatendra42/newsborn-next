@@ -2,18 +2,38 @@
 
 import ShortNewsCard from '@/components/shortNewsCard/ShortNewsCard'
 import Link from 'next/link'
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import { useNews } from "@/context/NewsContext";
 
 function MarketNews() {
 
-    const { getCategoryNews, loading, error } = useNews();
-     const articles = getCategoryNews("business");
+// const { articles, fetchFromNewsData, loading, error } = useNews();
+ 
+//    useEffect(() => {
+//      fetchFromNewsData({ category: "business", country: "in", language: "en" });
+//    }, []);
+ 
+//    console.log("Market Articles:", articles);
+
+
+
+
+
+// For Local Json call
+ 
+     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
   
-    if (loading) return <p>Loading Business news...</p>;
+    useEffect(() => {
+      fetchFromLocal("business");
+    }, [fetchFromLocal]);
+  
+    const marketArticles = articlesByCategory["business"];
+  
+ 
+  
+    if (loading) return <p>Loading sports news...</p>;
     if (error) return <p>{error}</p>;
-  
   
 
   return (
@@ -29,11 +49,11 @@ function MarketNews() {
           </div>
 
           <div className="right-aside__content">
-            {articles && articles.length > 0 ? (
-              articles.slice(0, 3).map((article) => (
+            {marketArticles && marketArticles.length > 0 ? (
+              marketArticles.slice(0, 3).map((article) => (
                 <ShortNewsCard
-                  key={article.url}
-                  href={article.url}
+                  key={article.url || article.link}
+                  href={article.url || article.link || "#"}
                   title={article.title}
                 />
               ))

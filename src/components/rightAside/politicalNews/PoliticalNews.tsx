@@ -1,8 +1,37 @@
+'use client';
+
+import { PlaceHolder } from '@/assets';
 import ShortNewsCard from '@/components/shortNewsCard/ShortNewsCard'
-import Link from 'next/link'
-import React from 'react'
+import { useNews } from '@/context/NewsContext';
+import Link from 'next/link';
+import React, {useEffect} from 'react';
 
 function PoliticalNews() {
+
+  // const { articles, fetchFromNewsData, loading, error } = useNews();
+   
+  //    useEffect(() => {
+  //      fetchFromNewsData({ category: "politics", country: "in", language: "en" });
+  //    }, []);
+   
+  //    console.log("Market Articles:", articles);
+
+  
+
+// For Local Json call
+ 
+     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
+  
+    useEffect(() => {
+      fetchFromLocal("politics");
+    }, [fetchFromLocal]);
+
+    const politicsArticles = articlesByCategory["politics"];
+
+    if (loading) return <p>Loading politics news...</p>;
+    if (error) return <p>{error}</p>;
+  
+  
   return (
    <>
          <div className="card right-aside">
@@ -15,21 +44,20 @@ function PoliticalNews() {
             </Link>
           </div>
 
+     
           <div className="right-aside__content">
-            <ShortNewsCard 
-              href={""} 
-              title={"Youth Turnout Could Shape 2025 Global Elections"} 
-              imageUrl={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MWm4Uc-yhWB5bkRg8r_Vy6ueABFtDb_qSA&s"} 
-              date={""} 
-              category={""} />
-
-                <ShortNewsCard 
-              href={""} 
-              title={"Youth Turnout Could Shape 2025 Global Elections"} 
-              imageUrl={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MWm4Uc-yhWB5bkRg8r_Vy6ueABFtDb_qSA&s"} 
-              date={""} 
-              category={""} />
-           
+            {politicsArticles && politicsArticles.length > 0 ? (
+              politicsArticles.slice(0, 2).map((article) => (
+                <ShortNewsCard
+                  key={article.url}
+                  href={article.url || article.link || "#"}
+                  title={article.title}
+                  imageUrl={article.image || article.image_url || PlaceHolder.src} 
+                />
+              ))
+            ) : (
+              <p>No articles found.</p>
+            )}
           </div>
         </div>
    </>

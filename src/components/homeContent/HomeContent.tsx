@@ -5,11 +5,13 @@ import VideoSection from "../videoSection/VideoSection";
 
 
 function HomeContent() {
+ 
+
   return (
     <>
       <div className="home-content-container">
         <TopHeadlines />
-         <VideoSection  />
+        <VideoSection />
       </div>
     </>
   );

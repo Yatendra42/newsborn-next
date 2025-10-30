@@ -5,7 +5,6 @@ import favicon from '@/assets/favicon.bmp';
 import { NewsProvider } from "@/context/NewsContext";
 
 
-
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -17,8 +16,15 @@ export const metadata: Metadata = {
   description: "Stay updated with the latest news and updates from around the world. Your trusted source for breaking news, politics, technology, sports, and more.",
    icons: {
     icon: favicon.src,
-  },
- viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+  }
+
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({

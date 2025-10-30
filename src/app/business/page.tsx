@@ -9,12 +9,33 @@ import { useNews } from "@/context/NewsContext";
 import Footer from "@/components/footer";
 
 function BusinessPage() {
-   const { getCategoryNews, loading, error } = useNews();
-   const articles = getCategoryNews("business");
 
-  if (loading) return <p>Loading business news...</p>;
-  if (error) return <p>{error}</p>;
+// const { articles, fetchFromNewsData, loading, error } = useNews();
+ 
+  //  useEffect(() => {
+  //    fetchFromNewsData({ category: "business", country: "in", language: "en" });
+  //  }, []);
+ 
+  //  console.log("Market Articles:", articles);
+ 
 
+
+
+
+// For Local Json call
+ 
+     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
+  
+    useEffect(() => {
+      fetchFromLocal("business");
+    }, [fetchFromLocal]);
+
+    const businessArticles = articlesByCategory["business"];
+
+    if (loading) return <p>Loading business news...</p>;
+    if (error) return <p>{error}</p>;
+  
+  
 
   return (
     <>
@@ -22,17 +43,18 @@ function BusinessPage() {
       <div className="container">
         <main>
           <Aside />
-          <div className="card-grid three-cards ">
-            {articles.map((article) => (
+    <div className="card-grid three-cards ">
+            {businessArticles  && businessArticles.map((article) => (
               <NewsCardSmall
                 key={article.url}
-                imageSrc={article.image}
-                imageAlt={article.title}
+                imageSrc={article.image_url || article.image || ""}
+                imageAlt={article.title || "" }
                 title={article.title}
                 content={article.description}
-                source={article.url}
+                source={article.url || article.link || "#"}
               />
             ))}
+         
           </div>
         </main>
       </div>

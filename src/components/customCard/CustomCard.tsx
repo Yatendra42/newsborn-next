@@ -1,8 +1,9 @@
 import React from 'react'
+import type { StaticImageData } from "next/image";
 import './CustomCard.scss';
 
 interface CustomCardProps { 
-    image: string;
+    image?: string;
     title: string;
     description: string;
     category?: string;

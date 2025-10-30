@@ -11,14 +11,29 @@ import { useNews } from "@/context/NewsContext";
 
 function SportsPage() {
   
-   const { getCategoryNews, loading, error } = useNews();
-   const articles = getCategoryNews("sports");
+// const { articles, fetchFromNewsData, loading, error } = useNews();
+ 
+//    useEffect(() => {
+//      fetchFromNewsData({ category: "sports", country: "in", language: "en" });
+//    }, []);
+ 
+//    console.log("Sports Articles:", articles);
 
-  if (loading) return <p>Loading sports news...</p>;
-  if (error) return <p>{error}</p>;
+ 
+// For Local Json call
+ 
+     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
+  
+    useEffect(() => {
+      fetchFromLocal("sports");
+    }, [fetchFromLocal]);
 
-  console.log(articles);
+    const sportsArticles = articlesByCategory["sports"];
 
+    if (loading) return <p>Loading sports news...</p>;
+    if (error) return <p>{error}</p>;
+  
+  
   return (
     <>
       <Header />
@@ -26,16 +41,17 @@ function SportsPage() {
         <main>
           <Aside />
           <div className="card-grid three-cards ">
-                 {articles.map((article) => (
+            {sportsArticles  && sportsArticles.map((article) => (
               <NewsCardSmall
-                key={article.url}
-                imageSrc={article.image}
-                imageAlt={article.title}
+                key={article.url || article.link}
+                 imageSrc={article.image_url || article.image || ""}
+                imageAlt={article.title || "" }
                 title={article.title}
                 content={article.description}
-                source={article.url}
+                source={article.url || article.link || "#"}
               />
             ))}
+         
           </div>
         </main>
       </div>

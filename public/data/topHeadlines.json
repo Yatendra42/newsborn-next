@@ -1,0 +1,170 @@
+{
+  "information": {
+    "realTimeArticles": {
+      "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
+    }
+  },
+  "totalArticles": 44606,
+  "articles": [
+    {
+      "id": "22b13eb418cd289efa706e83c98741a0",
+      "title": "GM Temporarily Cuts 5,500 Workers as Trump Policies Pressure EVs",
+      "description": "General Motors Co. notified about 5,500 employees across three plants that they are being laid off at least temporarily as the carmaker reassesses electric vehicle production in the wake of President Donald Trump’s move to eliminate crucial tax credits.",
+      "content": "General Motors Co. notified about 5,500 employees across three plants that they are being laid off at least temporarily as the carmaker reassesses electric vehicle production in the wake of President Donald Trump ’s move to eliminate crucial tax cred... [414 chars]",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-29/gm-temporarily-cuts-5-500-workers-as-trump-policies-pressure-evs",
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyldt7xOWFO8/v1/1200x800.jpg",
+      "publishedAt": "2025-10-29T16:21:04Z",
+      "lang": "en",
+      "source": {
+        "id": "7006f2c40c7cc01195608dbfd60259b3",
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "8243a944a6149ca80ea27ea47a0da053",
+      "title": "Republicans sue, seeking to block redistricting session",
+      "description": "The suit, filed in Tazewell County, alleges that the special session is unlawful because Gov. Glenn Youngkin initially called the General Assembly into special session in 2024 to deal with",
+      "content": "Va. voter guide: Candidates for governor, lieutenant governor and attorney general on the issues\nThe governor of Virginia is the state’s chief executive, responsible for enforcing laws, overseeing state agencies and proposing a budget.\nThe governor o... [1270 chars]",
+      "url": "https://richmond.com/news/state-regional/government-politics/article_4e583dcf-efa0-4aa6-8921-eca2aa6da6ab.html",
+      "image": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/4/e5/4e583dcf-efa0-4aa6-8921-eca2aa6da6ab/69023962d6dce.preview.jpg?crop=1763%2C926%2C0%2C125&resize=1200%2C630&order=crop%2Cresize",
+      "publishedAt": "2025-10-29T16:00:00Z",
+      "lang": "en",
+      "source": {
+        "id": "3f75f2c1a43bc09718077ba1dd6df97f",
+        "name": "Richmond Times-Dispatch",
+        "url": "https://richmond.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "148486a0a09dc46c514bece0af6249bd",
+      "title": "There is a silver lining in the White House's East Wing demolition",
+      "description": "History buff Stewart McLaurin says the East Wing demolition has sparked interest in White House history from the general public.",
+      "content": "Stewart McLaurin knew it was coming.\nAn entire wing of the White House, a building he calls “the most special, important building on the planet,” was going to be replaced to make way for a ballroom that President Donald Trump wants to add to the buil... [4810 chars]",
+      "url": "https://www.fastcompany.com/91431135/there-silver-lining-jarring-east-wing-demolition-history-buff-explains",
+      "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2025/10/AP25301784513702.jpg",
+      "publishedAt": "2025-10-29T15:52:31Z",
+      "lang": "en",
+      "source": {
+        "id": "5ac5f32ba74846cef441099f666f2d98",
+        "name": "Fast Company",
+        "url": "https://www.fastcompany.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "b15c6c0a9f53b9113b59839651c2d1f6",
+      "title": "US fails to make big dent in UN vote calling for end to Cuba embargo",
+      "description": "The United Nations General Assembly overwhelmingly called for an end to a U.S. economic embargo on Cuba despite lobbying by Washington that included sharing an accusation that up to 5,000 Cubans are fighting alongside Russian forces in Ukraine.",
+      "content": "WASHINGTON, Oct 29 (Reuters) - The United Nations General Assembly overwhelmingly called for an end to a U.S. economic embargo on Cuba despite lobbying by Washington that included sharing an accusation that up to 5,000 Cubans are fighting alongside R... [429 chars]",
+      "url": "https://www.reuters.com/world/americas/us-fails-make-big-dent-un-vote-calling-end-cuba-embargo-2025-10-29/",
+      "image": "https://www.reuters.com/resizer/v2/Y4TNJNLX6NINDB6XZSU5YTX3UE.jpg?auth=3cf5253516696eece96b08855b72dfda65af3c4b3b3be7f678ad76be5720483e&height=1005&width=1920&quality=80&smart=true",
+      "publishedAt": "2025-10-29T15:44:50Z",
+      "lang": "en",
+      "source": {
+        "id": "da5c26287bdd02563a2c32b55cb12051",
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "2305f0968a8cf4317207d50e706fef78",
+      "title": "GM to cut over 1,200 jobs at EV plant, Detroit News reports",
+      "description": "General Motors will cut about 1,200 jobs at its EV plant in Detroit, as the automaker responds to slowing demand for its battery cars, Detroit News reported on Wednesday.",
+      "content": "The company will also lay off 550 people at its Ultium battery facility in Ohio, while temporarily cutting another 850 jobs, the report said.\nSign up here.\nThe news comes as GM pares its outlook for EV sales after the slashing of a key federal incent... [480 chars]",
+      "url": "https://www.reuters.com/business/world-at-work/gm-cut-over-1200-jobs-ev-plant-detroit-news-reports-2025-10-29/",
+      "image": "https://www.reuters.com/resizer/v2/SUBKXJADQFLVVFJ344C4V7RHRA.jpg?auth=0790f3d3b7d526a99e8de09a4dde8837fe0a8506cb59308ec39868d0af096fa0&height=1005&width=1920&quality=80&smart=true",
+      "publishedAt": "2025-10-29T15:00:02Z",
+      "lang": "en",
+      "source": {
+        "id": "da5c26287bdd02563a2c32b55cb12051",
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "056fd2f56b55add576d6e9427ad46f44",
+      "title": "AG's lawsuit settled by Livingston Parish library board",
+      "description": "The Livingston Parish library board voted to settle a lawsuit filed by Attorney General Liz Murrill alleging the board violated Open Meetings Law when it ousted the library director in July",
+      "content": "The Livingston Parish Library Board voted to settle a lawsuit filed by Attorney General Liz Murrill alleging the board violated the state's open meetings law when it ousted the library director in July.\nThe board and the Livingston Parish president T... [1344 chars]",
+      "url": "https://www.theadvocate.com/baton_rouge/news/livingston-parish-attorney-general-lawsuit/article_3d649f85-09f8-485c-9854-7589dccecf45.html",
+      "image": "https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/c/f5/cf586d41-cc2d-51a4-a1b1-59857dd8af6a/682bab5272f0d.image.jpg?crop=1914%2C1005%2C0%2C39&resize=1200%2C630&order=crop%2Cresize",
+      "publishedAt": "2025-10-29T15:00:00Z",
+      "lang": "en",
+      "source": {
+        "id": "98150e04c55a140a5ed9c214b3184d4c",
+        "name": "Baton Rouge Advocate",
+        "url": "https://www.theadvocate.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "5d0eb94676d392f4a67605bfeccb224e",
+      "title": "25 States Suing Trump USDA for Gutting Food Aid to 40 million Americans",
+      "description": "By Stacy M. BrownBlack Press USA Senior National Correspondent Twenty-five attorneys general across the country and three governors have filed a lawsuit against the U.S. Department of Agriculture and its Secretary, Brooke Rollins, after the agency moved to suspend the Supplemental Nutrition Assistance Program, better known as SNAP, which helps more than 40 million Americans […]",
+      "content": "By Stacy M. Brown\nBlack Press USA Senior National Correspondent\nTwenty-five attorneys general across the country and three governors have filed a lawsuit against the U.S. Department of Agriculture and its Secretary, Brooke Rollins, after the agency m... [3954 chars]",
+      "url": "https://atlantadailyworld.com/2025/10/29/25-states-suing-trump-usda-for-gutting-food-aid-to-40-million-americans/",
+      "image": "https://atlantadailyworld.com/wp-content/uploads/sites/5/2025/10/1029-Snap-1000x600-1.jpg",
+      "publishedAt": "2025-10-29T14:46:04Z",
+      "lang": "en",
+      "source": {
+        "id": "ea013956b4493763c4f1b82752cb77d6",
+        "name": "Atlanta Daily World",
+        "url": "https://atlantadailyworld.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "91fbdb03d03686a8b215edf83eabdd64",
+      "title": "Virginia AG candidate Jay Jones still getting big donations despite scandal",
+      "description": "Virginia attorney general candidate Jay Jones raised over $1 million from Democratic donors after his murder text scandal broke, with major PAC contributions continuing.",
+      "content": "NEWYou can now listen to Fox News articles!\nVirginia Democratic attorney general candidate Jay Jones’ campaign continued to take in major donations from Democrats and Democratic-aligned PACs even after it was revealed he had envisioned the murder of ... [2604 chars]",
+      "url": "https://www.foxnews.com/politics/democrats-poured-more-than-1m-jay-jones-campaign-since-dueling-scandals-broke-disclosures-show",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/10/jay-jones-virginia.png",
+      "publishedAt": "2025-10-29T14:44:09Z",
+      "lang": "en",
+      "source": {
+        "id": "8da923084554b2821233d6c5c5f02c97",
+        "name": "Fox News",
+        "url": "https://www.foxnews.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "993029d7329eddf1e8c89ce70cec8f44",
+      "title": "US issues general license for German assets of Russia's Rosneft, website shows",
+      "description": "The United States issued a Russia-related general license authorizing transactions involving Rosneft Deutschland GmbH and RN Refining & Marketing GmbH, according to a posting Wednesday on a Treasury Department website.",
+      "content": "WASHINGTON, Oct 29 (Reuters) - The United States issued a Russia-related general license authorizing transactions involving Rosneft Deutschland GmbH and RN Refining & Marketing GmbH, according to a posting Wednesday on a Treasury Department website.\n... [609 chars]",
+      "url": "https://www.reuters.com/business/us-issues-general-license-german-assets-russias-rosneft-website-shows-2025-10-29/",
+      "image": "https://www.reuters.com/resizer/v2/WDYJL5BRJJNZ5AEOO4P2UYJQEE.jpg?auth=4a481b59bd8003a03a3e76aa8e8e91742b18563f76bcf23bfe022f8dc82c59fb&height=1005&width=1920&quality=80&smart=true",
+      "publishedAt": "2025-10-29T14:31:10Z",
+      "lang": "en",
+      "source": {
+        "id": "da5c26287bdd02563a2c32b55cb12051",
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "bc1b308834c2b220f1f8fb8694a7068f",
+      "title": "‘General Hospital’ and ‘Doctor Who’ actor dead at 84",
+      "description": "The actor died with his wife by his side.",
+      "content": "Longtime actor Tony Adams, who held down legendary roles on such daytime soaps as “Crossroads” and “General Hospital,” as well as a stint on “Dr. Who,” has died.\nAdams passed away Saturday at Sussex County Hospital in Brighton, with his wife Christin... [1073 chars]",
+      "url": "https://www.silive.com/entertainment/2025/10/general-hospital-and-doctor-who-actor-dead-at-84.html",
+      "image": "https://www.silive.com/resizer/v2/LH54HSDAWVHRTATV64226SLAQU.jpg?auth=02d216c6e2bfafc82d055bea900fd963b9e961bb8d7f6bddcb4e4c96b9c5aeb4&width=1280&smart=true&quality=90",
+      "publishedAt": "2025-10-29T14:30:09Z",
+      "lang": "en",
+      "source": {
+        "id": "e05be2586fae40092bbfb14c90c23680",
+        "name": "Staten Island Advance",
+        "url": "https://www.silive.com",
+        "country": "us"
+      }
+    }
+  ]
+}

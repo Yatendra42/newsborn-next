@@ -1,0 +1,170 @@
+{
+  "information": {
+    "realTimeArticles": {
+      "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
+    }
+  },
+  "totalArticles": 38975,
+  "articles": [
+    {
+      "id": "042cda43cca67894a2ea5d9c10a6253c",
+      "title": "High Frequency Trading Triggers a Showdown Over a London Rooftop",
+      "description": "A little-known technology firm took on the London Stock Exchange Group for access to its rooftop in a bid to speed up its trades by billionths of seconds.",
+      "content": "A little-known technology firm took on the London Stock Exchange Group for access to its rooftop in a bid to speed up its trades by billionths of seconds.\nFor years, a drab building located just one mile past the skyscrapers of London’s Canary Wharf ... [449 chars]",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-29/lseg-s-docklands-rooftop-becomes-battleground-in-high-frequency-trading",
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inTd._mP_h6E/v2/1200x800.jpg",
+      "publishedAt": "2025-10-29T05:00:07Z",
+      "lang": "en",
+      "source": {
+        "id": "7006f2c40c7cc01195608dbfd60259b3",
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "c19f513ec9cfbe7837182d28ff6ce06f",
+      "title": "Asia stocks rise on AI optimism, investors gird for Fed, tech earnings",
+      "description": "Asian shares got a lift from Wall Street on Wednesday thanks to a fresh wave of optimism over artificial intelligence, as investors braced for a busy day headlined by the Federal Reserve's decision and earnings from technology heavyweights.",
+      "content": "SINGAPORE, Oct 29 (Reuters) - Asian shares got a lift from Wall Street on Wednesday thanks to a fresh wave of optimism over artificial intelligence, as investors braced for a busy day headlined by the Federal Reserve's decision and earnings from tech... [3294 chars]",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-29/",
+      "image": "https://www.reuters.com/resizer/v2/N3MVPCUDBJOELKC6DHGJRHDJUE.jpg?auth=d1101f2f77de2b9d1bc2e5090685f5fe2e577f63ede4f5477fdf4176281405ca&height=1005&width=1920&quality=80&smart=true",
+      "publishedAt": "2025-10-29T02:02:23Z",
+      "lang": "en",
+      "source": {
+        "id": "da5c26287bdd02563a2c32b55cb12051",
+        "name": "Reuters",
+        "url": "https://www.reuters.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "82fae937ea8ee09d91426b32734bbc81",
+      "title": "U.S. Technology Company Coupang Presents Its Vision to Accelerate AI-driven Commerce at the APEC CEO Summit",
+      "description": "U.S. technology company Coupang, Inc. is leveraging AI innovation to help redefine the future of commerce, expand U.S. exports, and support America’s mission...",
+      "content": "SEATTLE--(BUSINESS WIRE)--U.S. technology company Coupang, Inc. is leveraging AI innovation to help redefine the future of commerce, expand U.S. exports, and support America’s mission to maintain global leadership on AI and advanced technologies, sai... [4160 chars]",
+      "url": "https://www.businesswire.com/news/home/20251028081302/en/U.S.-Technology-Company-Coupang-Presents-Its-Vision-to-Accelerate-AI-driven-Commerce-at-the-APEC-CEO-Summit",
+      "image": "https://mms.businesswire.com/media/20251028081302/en/2624876/21/2025ai_1min_1080p.jpg",
+      "publishedAt": "2025-10-29T01:42:00Z",
+      "lang": "en",
+      "source": {
+        "id": "d4773b92da0613b8ffc2fc9c46229534",
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "dff0071daa74425550adad223b3331e9",
+      "title": "MedTech Innovator Asia Pacific Names Australis Scientific Top Innovator in 2025 Grand Finals Competition",
+      "description": "MedTech Innovator (MTI), the world’s largest and most impactful accelerator for medical technology startups, today announced that Australis Scientific has be...",
+      "content": "LOS ANGELES & SINGAPORE--(BUSINESS WIRE)--MedTech Innovator (MTI), the world’s largest and most impactful accelerator for medical technology startups, today announced that Australis Scientific has been named the 2025 MedTech Innovator Asia Pacific Gr... [3577 chars]",
+      "url": "https://www.businesswire.com/news/home/20251028580729/en/MedTech-Innovator-Asia-Pacific-Names-Australis-Scientific-Top-Innovator-in-2025-Grand-Finals-Competition",
+      "image": "https://mms.businesswire.com/media/20251028580729/en/2624897/22/I64A1480-opq3010463384.jpg",
+      "publishedAt": "2025-10-29T01:07:00Z",
+      "lang": "en",
+      "source": {
+        "id": "d4773b92da0613b8ffc2fc9c46229534",
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "ae825d8c69912931722b01a1f40c2eb0",
+      "title": "Amazon Announces Mass Layoffs, Citing 'Transformative' AI Technology",
+      "description": "Corporate giant Amazon cites its use of artificial intelligence to increase efficiency and speed as its cuts 14,000 jobs.",
+      "content": "Amazon is shedding corporate jobs as its embrace of artificial intelligence reduces its need for humans.\nThe company plans on “an overall reduction in our corporate workforce of approximately 14,000 roles,” Senior Vice President of People Experience ... [2789 chars]",
+      "url": "https://www.thegatewaypundit.com/2025/10/amazon-announces-mass-layoffs-citing-transformative-ai-technology/",
+      "image": "https://www.thegatewaypundit.com/wp-content/uploads/2025/10/black-samsung-galaxy-smartphone-displaying-amazon-logo-1200x630.jpg",
+      "publishedAt": "2025-10-29T01:00:14Z",
+      "lang": "en",
+      "source": {
+        "id": "c7b3fd167c575deb5133f19df6ed778f",
+        "name": "The Gateway Pundit",
+        "url": "https://www.thegatewaypundit.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "624297ce7b975aa8b4882a0d447d5ab5",
+      "title": "Arizona Fall League early Statcast standouts",
+      "description": "For the first time in its 33 seasons, the Arizona Fall League features Statcast technology at all six of its ballparks, allowing for more complete data. The developmental circuit has reached the midpoint of its six-week schedule, making it a fine time to check in on the top performers in",
+      "content": "For the first time in its 33 seasons, the Arizona Fall League features Statcast technology at all six of its ballparks, allowing for more complete data. The developmental circuit has reached the midpoint of its six-week schedule, making it a fine tim... [5468 chars]",
+      "url": "https://www.mlb.com/news/arizona-fall-league-early-statcast-standouts",
+      "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/qv9ygmjhshjn7eart808.jpg",
+      "publishedAt": "2025-10-29T01:00:00Z",
+      "lang": "en",
+      "source": {
+        "id": "ca0e79d33b4fd192da50e36e3ed84a65",
+        "name": "MLB News",
+        "url": "https://www.mlb.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "297b31a7e7c83610e97d71139a0baae2",
+      "title": "Ord Minnett Sticks to Its Buy Rating for DUG Technology Ltd (DUG)",
+      "description": "Ord Minnett analyst Milo Ferris maintained a Buy rating on DUG Technology Ltd today and set a price target of A$2.82. The company’s shares close...",
+      "content": "Ord Minnett analyst Milo Ferris maintained a Buy rating on DUG Technology Ltd today and set a price target of A$2.82. The company’s shares closed yesterday at A$2.50.\nElevate Your Investing Strategy:\nTake advantage of TipRanks Premium at 50% off! Unl... [861 chars]",
+      "url": "https://markets.businessinsider.com/news/stocks/ord-minnett-sticks-to-its-buy-rating-for-dug-technology-ltd-dug-1035445300",
+      "image": "https://markets.businessinsider.com/favicon-32x32.png",
+      "publishedAt": "2025-10-29T00:05:48Z",
+      "lang": "en",
+      "source": {
+        "id": "bce8b9fcd331f3552e3dcf603b83b80e",
+        "name": "Markets Insider",
+        "url": "https://markets.businessinsider.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "7d3faad55562ece5509883260b3931a8",
+      "title": "Lone Wolf Technologies Announces Powerful Integration,",
+      "description": "DALLAS, Oct. 29, 2025 (GLOBE NEWSWIRE) -- Lone Wolf Technologies (“Lone Wolf”), North America’s leader in residential real estate technology, today...",
+      "content": "DALLAS, Oct. 29, 2025 (GLOBE NEWSWIRE) -- Lone Wolf Technologies (“Lone Wolf”), North America’s leader in residential real estate technology, today announced a highly requested integration between Lone Wolf Transact and Follow Up Boss. This milestone... [2759 chars]",
+      "url": "https://www.globenewswire.com/news-release/2025/10/29/3176537/0/en/Lone-Wolf-Technologies-Announces-Powerful-Integration-Unifying-the-Real-Estate-Journey-from-Lead-to-Close.html",
+      "image": "https://ml.globenewswire.com/Resource/Download/ee02de0b-c560-4dab-ad24-93f6e6267f0f",
+      "publishedAt": "2025-10-29T00:00:00Z",
+      "lang": "en",
+      "source": {
+        "id": "8e9ab8327c5f7903cc1b50470411d165",
+        "name": "GlobeNewswire",
+        "url": "https://www.globenewswire.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "dd21f6c551aae8614d16a3a5a311ab88",
+      "title": "Clear Street Unifies Client Experience with Global Platform",
+      "description": "Clear Street’s Platform Sales Strategy Mirrors its Cloud-Based, Real Time Technology in One Platform for Entire Trade Lifecycle Delivers Seamless Client...",
+      "content": "Clear Street’s Platform Sales Strategy Mirrors its Cloud-Based, Real Time Technology in One Platform for Entire Trade Lifecycle\nDelivers Seamless Client Experience Across Markets and Asset Classes\nMark Daniels Leads Platform Sales\nNEW YORK, Oct. 29, ... [4617 chars]",
+      "url": "https://www.globenewswire.com/news-release/2025/10/29/3176468/0/en/Clear-Street-Unifies-Client-Experience-with-Global-Platform-Sales-Launch.html",
+      "image": "https://ml.globenewswire.com/Resource/Download/15cc001f-c227-438b-b646-a0660fc66426",
+      "publishedAt": "2025-10-29T00:00:00Z",
+      "lang": "en",
+      "source": {
+        "id": "8e9ab8327c5f7903cc1b50470411d165",
+        "name": "GlobeNewswire",
+        "url": "https://www.globenewswire.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "6d51fe29e86fd92723e5d89f34981cb2",
+      "title": "GoGuardian Appoints Vishal Gupta as Chief Technology and",
+      "description": "GoGuardian today announced the appointment of Vishal Gupta as Chief Technology and Product Officer....",
+      "content": "LOS ANGELES, Oct. 29, 2025 (GLOBE NEWSWIRE) -- GoGuardian, a leader in education technology supporting more than 25 million students and 10,000 schools nationwide, today announced the appointment of Vishal Gupta as Chief Technology and Product Office... [4127 chars]",
+      "url": "https://www.globenewswire.com/news-release/2025/10/29/3176663/0/en/GoGuardian-Appoints-Vishal-Gupta-as-Chief-Technology-and-Product-Officer.html",
+      "image": "https://ml.globenewswire.com/Resource/Download/cff9116e-2882-4a4d-8fc0-fefebbb382dd",
+      "publishedAt": "2025-10-29T00:00:00Z",
+      "lang": "en",
+      "source": {
+        "id": "8e9ab8327c5f7903cc1b50470411d165",
+        "name": "GlobeNewswire",
+        "url": "https://www.globenewswire.com",
+        "country": "us"
+      }
+    }
+  ]
+}

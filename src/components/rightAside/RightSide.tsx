@@ -15,7 +15,8 @@ function RightSide() {
 
      
       <SportNews />
-      <PoliticalNews />
+
+     <PoliticalNews />
 
     
     

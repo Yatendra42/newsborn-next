@@ -73,3 +73,30 @@ export interface NavItem {
   href: string;
   children?: NavItem[];
 }
+
+// for new portal API types
+export interface NewsArticle {
+  urlToImage: string | undefined;
+  title: string;
+  description?: string;
+  url: string;
+  image_url?: string;
+  image?: string;
+  publishedAt?: string;
+  source_name?: string;
+  source_icon?: string;
+  country?: string;
+  language?: string;
+  category?: string;
+  link?: string;
+  articles?: any;
+}
+
+export interface FetchOptions {
+  endpoint?: string;
+  query?: string;
+  language?: string;
+  country?: string;
+  category?: string;
+  max?: number;
+}

@@ -13,32 +13,38 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { PlaceHolder } from "@/assets";
 
 interface TopHeadlinesProps {
   title?: string;
   category?: string;
-  image?: string | StaticImageData;
+  image?: string;
   description?: string;
+
 }
 
 
-const TopHeadlines = ({
-  title = "Top Headlines",
-  category = "Latest News",
-}: TopHeadlinesProps) => {
+const TopHeadlines = ({}: TopHeadlinesProps) => {
 
-  const { getCategoryNews, loading, error } = useNews();
-  const articles = getCategoryNews("general");
+   const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
 
-  if (loading) return <p>Loading general news...</p>;
+  useEffect(() => {
+    fetchFromLocal("topHeadlines");
+  }, [fetchFromLocal]);
+
+  const topHeadlinesArticles =  articlesByCategory["topHeadlines"];
+
+  
+
+
+  // ✅ All hooks called first, then conditionals
+  if (loading) return <p>Loading...</p>;
   if (error) return <p>{error}</p>;
+  if (!topHeadlinesArticles || topHeadlinesArticles.length === 0) return <p>No headlines available.</p>;
 
- console.log("Articles in TopHeadlines:", articles);
- 
   return (
-    
-    <section className="top-headlines-section" style={{  }}>
-     <h2>Top <span className="text-regular">Headlines</span></h2>
+    <section className="top-headlines-section">
+      <h2>Top <span className="text-regular">Headlines</span></h2>
 
       <Swiper
         slidesPerView={1}
@@ -51,20 +57,19 @@ const TopHeadlines = ({
           768: { slidesPerView: 1 },
           1024: { slidesPerView: 1 },
         }}
-         autoplay={{
+        autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
         className="top-headlines-swiper"
       >
-        {articles.map((headline, index) => (
+        {topHeadlinesArticles.map((headline, index) => (
           <SwiperSlide key={index}>
             <CustomCard
-              image={headline.image}
+              image={headline.image ?? PlaceHolder.src}
               title={headline.title}
-              description={headline.description}
-              //category={headline.category}
+              description={headline.description ?? ""}
             />
           </SwiperSlide>
         ))}
