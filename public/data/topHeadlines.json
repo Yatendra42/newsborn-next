@@ -4,96 +4,144 @@
       "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
     }
   },
-  "totalArticles": 44606,
+  "totalArticles": 44649,
   "articles": [
     {
-      "id": "22b13eb418cd289efa706e83c98741a0",
-      "title": "GM Temporarily Cuts 5,500 Workers as Trump Policies Pressure EVs",
-      "description": "General Motors Co. notified about 5,500 employees across three plants that they are being laid off at least temporarily as the carmaker reassesses electric vehicle production in the wake of President Donald Trump’s move to eliminate crucial tax credits.",
-      "content": "General Motors Co. notified about 5,500 employees across three plants that they are being laid off at least temporarily as the carmaker reassesses electric vehicle production in the wake of President Donald Trump ’s move to eliminate crucial tax cred... [414 chars]",
-      "url": "https://www.bloomberg.com/news/articles/2025-10-29/gm-temporarily-cuts-5-500-workers-as-trump-policies-pressure-evs",
-      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyldt7xOWFO8/v1/1200x800.jpg",
-      "publishedAt": "2025-10-29T16:21:04Z",
+      "id": "762e3d03bd37b985c3e54b0468c92884",
+      "title": "Colo. Sues Trump Admin Over Space Command Move to Alabama",
+      "description": "Colorado's attorney general sued President Donald Trump's administration on Wednesday for moving U.S. Space Command's headquarters to Alabama.",
+      "content": "Colorado's attorney general sued President Donald Trump's administration on Wednesday for moving U.S. Space Command's headquarters to Alabama, calling the decision unconstitutional retaliation for the Democrat state's vote-by-mail practices.\nThe laws... [1780 chars]",
+      "url": "https://www.newsmax.com/newsfront/colorado-lawsuit-space-command-hq/2025/10/29/id/1232408/",
+      "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=9b83e35f-fd44-4532-9169-01a63f21cdc7&SiteName=Newsmax",
+      "publishedAt": "2025-10-29T21:48:39Z",
       "lang": "en",
       "source": {
-        "id": "7006f2c40c7cc01195608dbfd60259b3",
-        "name": "Bloomberg",
-        "url": "https://www.bloomberg.com",
+        "id": "a8984f03fe66dae9745793f6560aa444",
+        "name": "Newsmax",
+        "url": "https://www.newsmax.com",
         "country": "us"
       }
     },
     {
-      "id": "8243a944a6149ca80ea27ea47a0da053",
-      "title": "Republicans sue, seeking to block redistricting session",
-      "description": "The suit, filed in Tazewell County, alleges that the special session is unlawful because Gov. Glenn Youngkin initially called the General Assembly into special session in 2024 to deal with",
-      "content": "Va. voter guide: Candidates for governor, lieutenant governor and attorney general on the issues\nThe governor of Virginia is the state’s chief executive, responsible for enforcing laws, overseeing state agencies and proposing a budget.\nThe governor o... [1270 chars]",
-      "url": "https://richmond.com/news/state-regional/government-politics/article_4e583dcf-efa0-4aa6-8921-eca2aa6da6ab.html",
-      "image": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/4/e5/4e583dcf-efa0-4aa6-8921-eca2aa6da6ab/69023962d6dce.preview.jpg?crop=1763%2C926%2C0%2C125&resize=1200%2C630&order=crop%2Cresize",
-      "publishedAt": "2025-10-29T16:00:00Z",
+      "id": "ab113b91eff8370350b162d7a1888cd9",
+      "title": "Seniors, families brace for the unexpected as SNAP benefits pause for November",
+      "description": "Michigan Attorney General Dana Nessel and 22 other state attorneys general have filed a lawsuit against the U.S. Department of Agriculture (USDA), demanding the agency use $6 billion in reserve funds to keep SNAP benefits flowing during a federal shutdown.",
+      "content": "DETROIT – Michigan Attorney General Dana Nessel and 22 other state attorneys general have filed a lawsuit against the U.S. Department of Agriculture (USDA), demanding the agency use $6 billion in reserve funds to keep Supplemental Nutrition Assistanc... [2647 chars]",
+      "url": "https://www.clickondetroit.com/news/local/2025/10/29/seniors-families-brace-for-the-unexpected-as-snap-benefits-pause-for-november/",
+      "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/anyclip/fstl-tf/lfjoMZoB81s81afQEiYC/1761774038559_1920x1080_thumbnail.jpg?_a=DATAg1eAZAA0",
+      "publishedAt": "2025-10-29T21:44:13Z",
       "lang": "en",
       "source": {
-        "id": "3f75f2c1a43bc09718077ba1dd6df97f",
-        "name": "Richmond Times-Dispatch",
-        "url": "https://richmond.com",
+        "id": "35515662ec044d3f94b543cd8802d63f",
+        "name": "WDIV ClickOnDetroit",
+        "url": "https://www.clickondetroit.com",
         "country": "us"
       }
     },
     {
-      "id": "148486a0a09dc46c514bece0af6249bd",
-      "title": "There is a silver lining in the White House's East Wing demolition",
-      "description": "History buff Stewart McLaurin says the East Wing demolition has sparked interest in White House history from the general public.",
-      "content": "Stewart McLaurin knew it was coming.\nAn entire wing of the White House, a building he calls “the most special, important building on the planet,” was going to be replaced to make way for a ballroom that President Donald Trump wants to add to the buil... [4810 chars]",
-      "url": "https://www.fastcompany.com/91431135/there-silver-lining-jarring-east-wing-demolition-history-buff-explains",
-      "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2025/10/AP25301784513702.jpg",
-      "publishedAt": "2025-10-29T15:52:31Z",
+      "id": "e474edd9ecb668bae0effabce0d82927",
+      "title": "50 million fentanyl doses seized in Pa. this year, AG Sunday says",
+      "description": "The attorney general said 27 million of those doses were recovered from the Philadelphia region, where the FBI conducted a large-scale raid in Kensington this month.",
+      "content": "Marking what they called a “high water mark” in the effort to combat the region’s fentanyl crisis, state and local officials announced Wednesday that they had seized 50 million doses of the deadly synthetic drug in raids across Pennsylvania this year... [3912 chars]",
+      "url": "https://www.inquirer.com/crime/fentanyl-drug-seizures-dave-sunday-20251029.html",
+      "image": "https://www.inquirer.com/resizer/v2/UMU3WC4SOVGGDE7QQZV5HCZHAE.jpg?auth=876b272ec57669e151a326c86b00f24ff9ffffbee788fd842bbaf4d3f3680644&width=760&height=507&smart=true",
+      "publishedAt": "2025-10-29T21:40:27Z",
       "lang": "en",
       "source": {
-        "id": "5ac5f32ba74846cef441099f666f2d98",
-        "name": "Fast Company",
-        "url": "https://www.fastcompany.com",
+        "id": "091dc78b9d3467c25d28c392b1c1c4c2",
+        "name": "The Philadelphia Inquirer",
+        "url": "https://www.inquirer.com",
         "country": "us"
       }
     },
     {
-      "id": "b15c6c0a9f53b9113b59839651c2d1f6",
-      "title": "US fails to make big dent in UN vote calling for end to Cuba embargo",
-      "description": "The United Nations General Assembly overwhelmingly called for an end to a U.S. economic embargo on Cuba despite lobbying by Washington that included sharing an accusation that up to 5,000 Cubans are fighting alongside Russian forces in Ukraine.",
-      "content": "WASHINGTON, Oct 29 (Reuters) - The United Nations General Assembly overwhelmingly called for an end to a U.S. economic embargo on Cuba despite lobbying by Washington that included sharing an accusation that up to 5,000 Cubans are fighting alongside R... [429 chars]",
-      "url": "https://www.reuters.com/world/americas/us-fails-make-big-dent-un-vote-calling-end-cuba-embargo-2025-10-29/",
-      "image": "https://www.reuters.com/resizer/v2/Y4TNJNLX6NINDB6XZSU5YTX3UE.jpg?auth=3cf5253516696eece96b08855b72dfda65af3c4b3b3be7f678ad76be5720483e&height=1005&width=1920&quality=80&smart=true",
-      "publishedAt": "2025-10-29T15:44:50Z",
+      "id": "6a46d4c428845bb8ef8a22c0bb66e505",
+      "title": "'Insulting': Retired 3-star general says this Trump policy crosses 'constitutional line'",
+      "description": "Lt. Gen. Mark Hertling (Ret.) tells the Bulwark he would not sign Secretary of Defense Pete Hegseth’s demand that military serving in President Donald Trump’s violent campaign against so-called “narcoterrorists\" sign non-disclosure agreements.“Soldiers don’t serve individuals; they serve the Constit...",
+      "content": "Lt. Gen. Mark Hertling (Ret.) tells the Bulwark he would not sign Secretary of Defense Pete Hegseth’s demand that military serving in President Donald Trump’s violent campaign against so-called “narcoterrorists\" sign non-disclosure agreements.\n“Soldi... [2901 chars]",
+      "url": "https://www.rawstory.com/insulting-retired-3-star-general-says-this-trump-policy-crosses-constitutional-line/",
+      "image": "https://www.rawstory.com/media-library/image.webp?id=61976489&width=1200&height=600&coordinates=0%2C81%2C0%2C82",
+      "publishedAt": "2025-10-29T21:37:36Z",
       "lang": "en",
       "source": {
-        "id": "da5c26287bdd02563a2c32b55cb12051",
-        "name": "Reuters",
-        "url": "https://www.reuters.com",
+        "id": "d9e5f124fd3af657d83b8787fbbae53d",
+        "name": "Raw Story",
+        "url": "https://www.rawstory.com",
         "country": "us"
       }
     },
     {
-      "id": "2305f0968a8cf4317207d50e706fef78",
-      "title": "GM to cut over 1,200 jobs at EV plant, Detroit News reports",
-      "description": "General Motors will cut about 1,200 jobs at its EV plant in Detroit, as the automaker responds to slowing demand for its battery cars, Detroit News reported on Wednesday.",
-      "content": "The company will also lay off 550 people at its Ultium battery facility in Ohio, while temporarily cutting another 850 jobs, the report said.\nSign up here.\nThe news comes as GM pares its outlook for EV sales after the slashing of a key federal incent... [480 chars]",
-      "url": "https://www.reuters.com/business/world-at-work/gm-cut-over-1200-jobs-ev-plant-detroit-news-reports-2025-10-29/",
-      "image": "https://www.reuters.com/resizer/v2/SUBKXJADQFLVVFJ344C4V7RHRA.jpg?auth=0790f3d3b7d526a99e8de09a4dde8837fe0a8506cb59308ec39868d0af096fa0&height=1005&width=1920&quality=80&smart=true",
-      "publishedAt": "2025-10-29T15:00:02Z",
+      "id": "f7eb2108223844d64e0fb8879e806ef6",
+      "title": "Exit poll suggests Dutch election result too close to call, with center-left party slightly ahead",
+      "description": "An exit poll published immediately after voting ended Wednesday in the Netherlands’ general election suggested the result is too close to call, with the center-left D66 narrowly ahead of the far-right party of anti-Islam lawmaker Geert Wilders",
+      "content": "THE HAGUE, Netherlands (AP) — An exit poll published immediately after voting ended Wednesday in the Netherlands’ general election suggested the result was too close to call, with the center-left D66 narrowly ahead of the far-right party of anti-Isla... [337 chars]",
+      "url": "https://www.ajc.com/news/2025/10/exit-poll-suggests-dutch-election-result-too-close-to-call-with-center-left-party-slightly-ahead/",
+      "image": "https://www.ajc.com/resizer/v2/M6LUDUUZOZBLPOEB75G44UGR5M.jpg?auth=d1bcb3f28f83b0666ba1ebc70e7922d27b07aa124d8a95f0ada1f66308fc24e6&width=1200&height=630&smart=true",
+      "publishedAt": "2025-10-29T21:32:36Z",
       "lang": "en",
       "source": {
-        "id": "da5c26287bdd02563a2c32b55cb12051",
-        "name": "Reuters",
-        "url": "https://www.reuters.com",
+        "id": "79e9a45376a66fd7e1a4e68bba928c39",
+        "name": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com",
         "country": "us"
       }
     },
     {
-      "id": "056fd2f56b55add576d6e9427ad46f44",
-      "title": "AG's lawsuit settled by Livingston Parish library board",
-      "description": "The Livingston Parish library board voted to settle a lawsuit filed by Attorney General Liz Murrill alleging the board violated Open Meetings Law when it ousted the library director in July",
-      "content": "The Livingston Parish Library Board voted to settle a lawsuit filed by Attorney General Liz Murrill alleging the board violated the state's open meetings law when it ousted the library director in July.\nThe board and the Livingston Parish president T... [1344 chars]",
-      "url": "https://www.theadvocate.com/baton_rouge/news/livingston-parish-attorney-general-lawsuit/article_3d649f85-09f8-485c-9854-7589dccecf45.html",
-      "image": "https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/c/f5/cf586d41-cc2d-51a4-a1b1-59857dd8af6a/682bab5272f0d.image.jpg?crop=1914%2C1005%2C0%2C39&resize=1200%2C630&order=crop%2Cresize",
-      "publishedAt": "2025-10-29T15:00:00Z",
+      "id": "b7f3da77baa9803991be50ad2887d7e1",
+      "title": "GM lays off thousands of EV workers during Trump crackdown",
+      "description": "General Motors plans to lay off thousands of workers at electric vehicle facilities across the United States.",
+      "content": "Battery plants in Ohio and Tennessee, operated with LG Energy Solution, will begin shutting down in January and will resume operations in mid-2026. The automaker also plans to indefinitely lay off 1,200 of the 3,400 workers at its electric vehicle as... [1084 chars]",
+      "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/3868571/general-motors-lays-off-thousands-electric-vehicle-workers-trump-crackdown/",
+      "image": "https://www.washingtonexaminer.com/wp-content/uploads/2025/10/AP25302608268320.jpg?resize=1024,683",
+      "publishedAt": "2025-10-29T21:20:24Z",
+      "lang": "en",
+      "source": {
+        "id": "eaeeaeaa1e329f65d3a921c9c867fd7b",
+        "name": "Washington Examiner",
+        "url": "https://www.washingtonexaminer.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "d336368e13ad33fa370ba1d9a7a8e6a9",
+      "title": "‘General Hospital,’ ‘Days of Our Lives’ Writer Was 94",
+      "description": "Margaret DePriest, a head writer on General Hospital, Days of Our Lives, All My Children, Another World and other soaps, has died at 94.",
+      "content": "Margaret DePriest, a onetime actress who spent three decades as a pioneering head writer on such soap operas as General Hospital, Days of Our Lives, All My Children and Another World, has died. She was 94.\nDePriest died Sept. 29 of natural causes at ... [4376 chars]",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/margaret-depriest-dead-general-hospital-days-of-our-lives-1236413120/",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2025/10/Margaret-DePriest-Obit-Template-Headshot-Publicity-H-2025.jpg?w=1296&h=730&crop=1",
+      "publishedAt": "2025-10-29T20:58:41Z",
+      "lang": "en",
+      "source": {
+        "id": "e83df266d4bbd78d7528c3ee4fc0fc5f",
+        "name": "The Hollywood Reporter",
+        "url": "https://www.hollywoodreporter.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "31679c4f6f18c3a619475544af80740d",
+      "title": "GM to lay off more than 3,300 employees across 3 states",
+      "description": "General Motors said Wednesday it's planning to cut more than 3,300 jobs across three states as the electric vehicle industry adjusts to new polices under Trump.",
+      "content": "General Motors said Wednesday it’s planning to cut more than 3,300 jobs across three states as the electric vehicle industry adjusts to new polices under President Trump.\nThe company said about 1,200 employees at its all-electric factory near Detroit... [1504 chars]",
+      "url": "https://www.nydailynews.com/2025/10/29/general-motors-layoffs-michigan-ohio-tennessee/",
+      "image": "https://www.nydailynews.com/wp-content/uploads/2025/10/AP25302608268320.jpg?w=1024&h=683",
+      "publishedAt": "2025-10-29T20:56:52Z",
+      "lang": "en",
+      "source": {
+        "id": "3fac65098bad206a4847f7fdbac9f170",
+        "name": "New York Daily News",
+        "url": "https://www.nydailynews.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "c61340834595dbb4d41351bb406dfbd9",
+      "title": "Baton Rouge officials indicted on conspiracy charges",
+      "description": "Baton Rouge officials related to BREC and the city's groundwater district have been indicted on state charges of contract conspiracy, trade restraint, and malfeasance in office following an investigation by the Louisiana Attorney General.",
+      "content": "The former head of the Baton Rouge area's groundwater protection district and a parish parks agency official were indicted on corruption charges Wednesday.\nGary Beard, 69, who until last month was director of the Capital Area Groundwater Conservation... [982 chars]",
+      "url": "https://www.theadvocate.com/baton_rouge/ex-baton-rouge-ground-water-agency-chief-and-parks-official-indicted-on-conspiracy-charges/article_8caa01ff-c8a6-419f-86f9-fffaa8654820.html",
+      "image": "https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/e/5a/e5a8bf8d-f733-5440-91dc-ce5bcc3d9291/6891150f5dd7a.image.jpg?crop=1843%2C968%2C0%2C78&resize=1200%2C630&order=crop%2Cresize",
+      "publishedAt": "2025-10-29T20:30:00Z",
       "lang": "en",
       "source": {
         "id": "98150e04c55a140a5ed9c214b3184d4c",
@@ -103,66 +151,18 @@
       }
     },
     {
-      "id": "5d0eb94676d392f4a67605bfeccb224e",
-      "title": "25 States Suing Trump USDA for Gutting Food Aid to 40 million Americans",
-      "description": "By Stacy M. BrownBlack Press USA Senior National Correspondent Twenty-five attorneys general across the country and three governors have filed a lawsuit against the U.S. Department of Agriculture and its Secretary, Brooke Rollins, after the agency moved to suspend the Supplemental Nutrition Assistance Program, better known as SNAP, which helps more than 40 million Americans […]",
-      "content": "By Stacy M. Brown\nBlack Press USA Senior National Correspondent\nTwenty-five attorneys general across the country and three governors have filed a lawsuit against the U.S. Department of Agriculture and its Secretary, Brooke Rollins, after the agency m... [3954 chars]",
-      "url": "https://atlantadailyworld.com/2025/10/29/25-states-suing-trump-usda-for-gutting-food-aid-to-40-million-americans/",
-      "image": "https://atlantadailyworld.com/wp-content/uploads/sites/5/2025/10/1029-Snap-1000x600-1.jpg",
-      "publishedAt": "2025-10-29T14:46:04Z",
+      "id": "a1ada679085689a10491eb4908a01038",
+      "title": "Michigan House votes to close loophole shielding secretary of state from campaign finance penalties",
+      "description": "The legislation, approved unanimously, would grant the attorney general power to punish the secretary of state for Michigan Campaign Finance Act violations.",
+      "content": "The Michigan House unanimously approved legislation Wednesday that would close a loophole allowing the secretary of state to avoid punishment for campaign finance violations.\nThe legislation that passed by a 106-0 vote would grant the attorney genera... [3345 chars]",
+      "url": "https://www.mlive.com/politics/2025/10/michigan-house-votes-to-close-loophole-shielding-secretary-of-state-from-campaign-finance-penalties.html",
+      "image": "https://www.mlive.com/resizer/v2/5RFPA6USMVAXTK475SHEXLETSU.jpg?auth=ff135050793fb18530b97f8ba6478a7e63d7d86fcb783f1f478ffa7e9608b58f&width=1280&smart=true&quality=90",
+      "publishedAt": "2025-10-29T20:17:08Z",
       "lang": "en",
       "source": {
-        "id": "ea013956b4493763c4f1b82752cb77d6",
-        "name": "Atlanta Daily World",
-        "url": "https://atlantadailyworld.com",
-        "country": "us"
-      }
-    },
-    {
-      "id": "91fbdb03d03686a8b215edf83eabdd64",
-      "title": "Virginia AG candidate Jay Jones still getting big donations despite scandal",
-      "description": "Virginia attorney general candidate Jay Jones raised over $1 million from Democratic donors after his murder text scandal broke, with major PAC contributions continuing.",
-      "content": "NEWYou can now listen to Fox News articles!\nVirginia Democratic attorney general candidate Jay Jones’ campaign continued to take in major donations from Democrats and Democratic-aligned PACs even after it was revealed he had envisioned the murder of ... [2604 chars]",
-      "url": "https://www.foxnews.com/politics/democrats-poured-more-than-1m-jay-jones-campaign-since-dueling-scandals-broke-disclosures-show",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2025/10/jay-jones-virginia.png",
-      "publishedAt": "2025-10-29T14:44:09Z",
-      "lang": "en",
-      "source": {
-        "id": "8da923084554b2821233d6c5c5f02c97",
-        "name": "Fox News",
-        "url": "https://www.foxnews.com",
-        "country": "us"
-      }
-    },
-    {
-      "id": "993029d7329eddf1e8c89ce70cec8f44",
-      "title": "US issues general license for German assets of Russia's Rosneft, website shows",
-      "description": "The United States issued a Russia-related general license authorizing transactions involving Rosneft Deutschland GmbH and RN Refining & Marketing GmbH, according to a posting Wednesday on a Treasury Department website.",
-      "content": "WASHINGTON, Oct 29 (Reuters) - The United States issued a Russia-related general license authorizing transactions involving Rosneft Deutschland GmbH and RN Refining & Marketing GmbH, according to a posting Wednesday on a Treasury Department website.\n... [609 chars]",
-      "url": "https://www.reuters.com/business/us-issues-general-license-german-assets-russias-rosneft-website-shows-2025-10-29/",
-      "image": "https://www.reuters.com/resizer/v2/WDYJL5BRJJNZ5AEOO4P2UYJQEE.jpg?auth=4a481b59bd8003a03a3e76aa8e8e91742b18563f76bcf23bfe022f8dc82c59fb&height=1005&width=1920&quality=80&smart=true",
-      "publishedAt": "2025-10-29T14:31:10Z",
-      "lang": "en",
-      "source": {
-        "id": "da5c26287bdd02563a2c32b55cb12051",
-        "name": "Reuters",
-        "url": "https://www.reuters.com",
-        "country": "us"
-      }
-    },
-    {
-      "id": "bc1b308834c2b220f1f8fb8694a7068f",
-      "title": "‘General Hospital’ and ‘Doctor Who’ actor dead at 84",
-      "description": "The actor died with his wife by his side.",
-      "content": "Longtime actor Tony Adams, who held down legendary roles on such daytime soaps as “Crossroads” and “General Hospital,” as well as a stint on “Dr. Who,” has died.\nAdams passed away Saturday at Sussex County Hospital in Brighton, with his wife Christin... [1073 chars]",
-      "url": "https://www.silive.com/entertainment/2025/10/general-hospital-and-doctor-who-actor-dead-at-84.html",
-      "image": "https://www.silive.com/resizer/v2/LH54HSDAWVHRTATV64226SLAQU.jpg?auth=02d216c6e2bfafc82d055bea900fd963b9e961bb8d7f6bddcb4e4c96b9c5aeb4&width=1280&smart=true&quality=90",
-      "publishedAt": "2025-10-29T14:30:09Z",
-      "lang": "en",
-      "source": {
-        "id": "e05be2586fae40092bbfb14c90c23680",
-        "name": "Staten Island Advance",
-        "url": "https://www.silive.com",
+        "id": "d86acd5a472cad336b1f19dca3331ef5",
+        "name": "M Live Michigan ",
+        "url": "https://www.mlive.com",
         "country": "us"
       }
     }
