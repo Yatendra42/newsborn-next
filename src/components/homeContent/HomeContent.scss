@@ -14,3 +14,28 @@
   }
 
 }
+
+
+@media (max-width: 1200px) {
+
+  .home-content-container { 
+     max-width: 560px;
+  }
+
+ }
+
+@media (max-width: 1024px) { 
+
+    .home-content-container { 
+     max-width: 460px;
+  }
+
+ }
+
+@media (max-width: 768px) { 
+
+    .home-content-container { 
+     max-width: 300px;
+  }
+
+ }

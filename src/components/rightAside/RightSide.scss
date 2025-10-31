@@ -23,3 +23,13 @@
     }
 
 }
+
+@media (max-width: 1200px) {
+
+.right-aside {
+    &-container {
+        max-width: 300px;
+        flex: 1 1 300px;
+}
+}
+}

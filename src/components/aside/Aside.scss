@@ -55,3 +55,10 @@ aside {
         }
     }
 }
+
+@media (max-width: 1200px) {
+
+aside {
+    flex: 1 1 250px;
+}
+}

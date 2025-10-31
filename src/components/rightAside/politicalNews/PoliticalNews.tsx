@@ -49,7 +49,7 @@ function PoliticalNews() {
             {politicsArticles && politicsArticles.length > 0 ? (
               politicsArticles.slice(0, 2).map((article) => (
                 <ShortNewsCard
-                  key={article.url}
+                 key={article.url || article.link}
                   href={article.url || article.link || "#"}
                   title={article.title}
                   imageUrl={article.image || article.image_url || PlaceHolder.src} 
