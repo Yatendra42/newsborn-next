@@ -9,23 +9,16 @@ import { useNews } from "@/context/NewsContext";
 import Footer from "@/components/footer";
 
 function WorldPage() {
-  //  const { getCategoryNews, loading, error } = useNews();
-  //  const articles = getCategoryNews("world");
+  const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
 
-// For Local Json call
- 
-     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
-  
-    useEffect(() => {
-      fetchFromLocal("world");
-    }, [fetchFromLocal]);
+  useEffect(() => {
+    fetchFromLocal("world");
+  }, [fetchFromLocal]);
 
-    const worldArticles = articlesByCategory["world"];
+  const worldArticles = articlesByCategory["world"];
 
-    if (loading) return <p>Loading world news...</p>;
-    if (error) return <p>{error}</p>;
-  
-  
+  if (loading) return <p>Loading world news...</p>;
+  if (error) return <p>{error}</p>;
 
   return (
     <>
@@ -33,18 +26,19 @@ function WorldPage() {
       <div className="container">
         <main>
           <Aside />
-        <div className="card-grid three-cards ">
-            {worldArticles  && worldArticles.map((article) => (
+          <div className="card-grid three-cards ">
+            {worldArticles && worldArticles.map((article) => (
               <NewsCardSmall
                 key={article.url || article.link}
-                 imageSrc={article.image_url || article.image || ""}
-                imageAlt={article.title || "" }
+                imageSrc={article.image_url || article.image || ""}
+                imageAlt={article.title || ""}
                 title={article.title}
                 content={article.description}
                 source={article.url || article.link || "#"}
+                timestamp={article.publishedAt}
               />
             ))}
-         
+
           </div>
         </main>
       </div>

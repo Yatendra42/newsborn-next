@@ -5,38 +5,20 @@ import Header from "@/components/header";
 import NewsCardSmall from "@/components/newsCardSmall/NewsCardSmall";
 import React, { useEffect } from "react";
 
-//import { useNews } from "@/context/NewsContext";
 import Footer from "@/components/footer";
 import { useNews } from "@/context/NewsContext";
 
 function LifestylePage() {
-//    const { getCategoryNews, loading, error } = useNews();
-//    const articles = getCategoryNews("lifestyle");
+  const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
 
-//   if (loading) return <p>Loading world news...</p>;
-//   if (error) return <p>{error}</p>;
+  useEffect(() => {
+    fetchFromLocal("lifestyle");
+  }, [fetchFromLocal]);
 
+  const lifestyleArticles = articlesByCategory["lifestyle"];
 
-// For Local Json call
- 
-     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
-  
-    useEffect(() => {
-      fetchFromLocal("lifestyle");
-    }, [fetchFromLocal]);
-
-    const lifestyleArticles = articlesByCategory["lifestyle"];
-
-    if (loading) return <p>Loading lifestyle news...</p>;
-    if (error) return <p>{error}</p>;
-  
-  
-
-
-  if (loading) return <p>Loading entertainment news...</p>;
+  if (loading) return <p>Loading lifestyle news...</p>;
   if (error) return <p>{error}</p>;
-
-
 
   return (
     <>
@@ -44,18 +26,19 @@ function LifestylePage() {
       <div className="container">
         <main>
           <Aside />
-           <div className="card-grid three-cards ">
+          <div className="card-grid three-cards ">
             {lifestyleArticles && lifestyleArticles.map((article) => (
               <NewsCardSmall
                 key={article.url}
                 imageSrc={article.image_url || article.image || ""}
-                imageAlt={article.title || "" }
+                imageAlt={article.title || ""}
                 title={article.title}
                 content={article.description}
                 source={article.url || article.link || "#"}
+                timestamp={article.publishedAt}
               />
             ))}
-         
+
           </div>
         </main>
       </div>

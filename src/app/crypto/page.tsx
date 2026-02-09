@@ -9,33 +9,16 @@ import { useNews } from "@/context/NewsContext";
 import Footer from "@/components/footer";
 
 function CryptoPage() {
+  const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
 
-// const { articles, fetchFromNewsData, loading, error } = useNews();
- 
-  //  useEffect(() => {
-  //    fetchFromNewsData({ category: "business", country: "in", language: "en" });
-  //  }, []);
- 
-  //  console.log("Market Articles:", articles);
- 
+  useEffect(() => {
+    fetchFromLocal("crypto");
+  }, [fetchFromLocal]);
 
+  const cryptoArticles = articlesByCategory["crypto"];
 
-
-
-// For Local Json call
- 
-     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
-  
-    useEffect(() => {
-      fetchFromLocal("crypto");
-    }, [fetchFromLocal]);
-
-    const cryptoArticles = articlesByCategory["crypto"];
-
-    if (loading) return <p>Loading crypto news...</p>;
-    if (error) return <p>{error}</p>;
-  
-  
+  if (loading) return <p>Loading crypto news...</p>;
+  if (error) return <p>{error}</p>;
 
   return (
     <>
@@ -43,18 +26,19 @@ function CryptoPage() {
       <div className="container">
         <main>
           <Aside />
-    <div className="card-grid three-cards ">
-            {cryptoArticles  && cryptoArticles.map((article) => (
+          <div className="card-grid three-cards ">
+            {cryptoArticles && cryptoArticles.map((article) => (
               <NewsCardSmall
                 key={article.url}
                 imageSrc={article.image_url || article.image || ""}
-                imageAlt={article.title || "" }
+                imageAlt={article.title || ""}
                 title={article.title}
                 content={article.description}
                 source={article.url || article.link || "#"}
+                timestamp={article.publishedAt}
               />
             ))}
-         
+
           </div>
         </main>
       </div>

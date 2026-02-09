@@ -9,30 +9,16 @@ import { useNews } from "@/context/NewsContext";
 import Footer from "@/components/footer";
 
 function HealthPage() {
-  //  const { getCategoryNews, loading, error } = useNews();
-  //  const articles = getCategoryNews("health");
+  const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
 
+  useEffect(() => {
+    fetchFromLocal("health");
+  }, [fetchFromLocal]);
 
-// For Local Json call
- 
-     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
-  
-    useEffect(() => {
-      fetchFromLocal("health");
-    }, [fetchFromLocal]);
+  const healthArticles = articlesByCategory["health"];
 
-    const healthArticles = articlesByCategory["health"];
-
-    if (loading) return <p>Loading health news...</p>;
-    if (error) return <p>{error}</p>;
-  
-  
-
-
-
-  if (loading) return <p>Loading politics news...</p>;
+  if (loading) return <p>Loading health news...</p>;
   if (error) return <p>{error}</p>;
-
 
   return (
     <>
@@ -40,18 +26,19 @@ function HealthPage() {
       <div className="container">
         <main>
           <Aside />
-              <div className="card-grid three-cards ">
-            {healthArticles  && healthArticles.map((article) => (
+          <div className="card-grid three-cards ">
+            {healthArticles && healthArticles.map((article) => (
               <NewsCardSmall
                 key={article.url}
                 imageSrc={article.image_url || article.image || ""}
-                imageAlt={article.title || "" }
+                imageAlt={article.title || ""}
                 title={article.title}
                 content={article.description}
                 source={article.url || article.link || "#"}
+                timestamp={article.publishedAt}
               />
             ))}
-         
+
           </div>
         </main>
       </div>

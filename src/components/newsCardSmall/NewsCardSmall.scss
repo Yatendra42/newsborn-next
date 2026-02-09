@@ -1,0 +1,11 @@
+@use "@/styles/variables" as *;
+
+.news-card-small {
+  .timestamp {
+    display: block;
+    font-size: $font-size-xsmall;
+    color: $secondary-text-color;
+    margin-top: 8px;
+    opacity: 0.7;
+  }
+}

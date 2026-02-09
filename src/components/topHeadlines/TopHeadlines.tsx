@@ -1,6 +1,6 @@
 "use client";
 
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./TopHeadlines.scss";
 import type { StaticImageData } from "next/image";
 import CustomCard from "../customCard/CustomCard";
@@ -24,17 +24,17 @@ interface TopHeadlinesProps {
 }
 
 
-const TopHeadlines = ({}: TopHeadlinesProps) => {
+const TopHeadlines = ({ }: TopHeadlinesProps) => {
 
-   const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
+  const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
 
   useEffect(() => {
     fetchFromLocal("topHeadlines");
   }, [fetchFromLocal]);
 
-  const topHeadlinesArticles =  articlesByCategory["topHeadlines"];
+  const topHeadlinesArticles = articlesByCategory["topHeadlines"];
 
-  
+
 
 
   // ✅ All hooks called first, then conditionals
@@ -70,6 +70,7 @@ const TopHeadlines = ({}: TopHeadlinesProps) => {
               image={headline.image ?? PlaceHolder.src}
               title={headline.title}
               description={headline.description ?? ""}
+              timestamp={headline.publishedAt}
             />
           </SwiperSlide>
         ))}

@@ -4,36 +4,22 @@ import Aside from "@/components/aside/Aside";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import NewsCardSmall from "@/components/newsCardSmall/NewsCardSmall";
-import React,{useEffect} from "react";
-
+import React, { useEffect } from "react";
 
 import { useNews } from "@/context/NewsContext";
 
 function SportsPage() {
-  
-// const { articles, fetchFromNewsData, loading, error } = useNews();
- 
-//    useEffect(() => {
-//      fetchFromNewsData({ category: "sports", country: "in", language: "en" });
-//    }, []);
- 
-//    console.log("Sports Articles:", articles);
+  const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
 
- 
-// For Local Json call
- 
-     const { articlesByCategory, fetchFromLocal, loading, error } = useNews();
-  
-    useEffect(() => {
-      fetchFromLocal("sports");
-    }, [fetchFromLocal]);
+  useEffect(() => {
+    fetchFromLocal("sports");
+  }, [fetchFromLocal]);
 
-    const sportsArticles = articlesByCategory["sports"];
+  const sportsArticles = articlesByCategory["sports"];
 
-    if (loading) return <p>Loading sports news...</p>;
-    if (error) return <p>{error}</p>;
-  
-  
+  if (loading) return <p>Loading sports news...</p>;
+  if (error) return <p>{error}</p>;
+
   return (
     <>
       <Header />
@@ -41,17 +27,18 @@ function SportsPage() {
         <main>
           <Aside />
           <div className="card-grid three-cards ">
-            {sportsArticles  && sportsArticles.map((article) => (
+            {sportsArticles && sportsArticles.map((article) => (
               <NewsCardSmall
                 key={article.url || article.link}
-                 imageSrc={article.image_url || article.image || ""}
-                imageAlt={article.title || "" }
+                imageSrc={article.image_url || article.image || ""}
+                imageAlt={article.title || ""}
                 title={article.title}
                 content={article.description}
                 source={article.url || article.link || "#"}
+                timestamp={article.publishedAt}
               />
             ))}
-         
+
           </div>
         </main>
       </div>
